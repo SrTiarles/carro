@@ -3,13 +3,14 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    
 }
 
 .container {
     max-width: 400px;
     margin: auto;
-    background: white;
-    padding: 20px;
+background: linear-gradient(135deg, #1E90FF 0%, #4169E1 100%);
+    padding: 22.42px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

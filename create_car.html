@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Car</title>
+    <title>Create Product</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Create a New Car</h1>
-        <form id="createCarForm">
-            <label for="model">Model:</label>
-            <input type="text" id="model" required>
+        <h1>Create a New Product</h1>
+        <form id="createProduct">
+            <label for="product">Product:</label>
+            <input type="text" id="product" required>
             
             <label for="brand">Brand ID:</label>
             <input type="number" id="brand" required>
             
-            <label for="factory_year">Factory Year:</label>
-            <input type="number" id="factory_year" required>
+            <label for="lote">Lote:</label>
+            <input type="number" id="lote" required>
             
-            <label for="model_year">Model Year:</label>
-            <input type="number" id="model_year" required>
+            <label for="validade">Validade:</label>
+            <input type="date" id="validade" required>
             
-            <label for="color">Color:</label>
-            <input type="text" id="color">
+            <label for="ingrediente">Ingrediente principal:</label>
+            <input type="text" id="ingrediente">
             
             <label for="description">Description:</label>
             <textarea id="description"></textarea>
             
-            <button type="submit">Create Car</button>
+            <button type="submit">Create Product</button>
         </form>
         <p>Want to create a new brand? <a href="create_brand.html">Click here</a></p>
 
